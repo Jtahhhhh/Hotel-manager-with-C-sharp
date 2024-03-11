@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67A3B995-51DE-49B1-8EEA-09E43A5813E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QKKS_ver_1._4_</RootNamespace>
+    <AssemblyName>QKKS%28ver 1.4%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Nevron.Nov.Barcode, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Chart, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Diagram, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Grid, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Host.WinForm, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Presentation, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Schedule, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.Text, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad" />
+    <Reference Include="Nevron.Nov.WinFormControls, Version=23.9.25.12, Culture=neutral, PublicKeyToken=b33b1a04bb5ca8ad, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\AccInf.cs" />
+    <Compile Include="DAL\Bill.cs" />
+    <Compile Include="DAL\EMPinfo.cs" />
+    <Compile Include="DAL\Login.cs" />
+    <Compile Include="DAL\mainMenu.cs" />
+    <Compile Include="DAL\Paid.cs" />
+    <Compile Include="DAL\reservationCreate.cs" />
+    <Compile Include="DAL\reservationList.cs" />
+    <Compile Include="DAL\Revenue.cs" />
+    <Compile Include="DAL\Room.cs" />
+    <Compile Include="DAL\roomPrice.cs" />
+    <Compile Include="DAL\Service.cs" />
+    <Compile Include="DAO\DataProviceder.cs" />
+    <Compile Include="DAO\Room.cs" />
+    <Compile Include="DTO\PNP.cs" />
+    <Compile Include="DTO\Customer.cs" />
+    <Compile Include="DTO\EMP.cs" />
+    <Compile Include="DTO\Reservation.cs" />
+    <Compile Include="DTO\Room.cs" />
+    <Compile Include="DTO\RoomPrice.cs" />
+    <Compile Include="DTO\Service.cs" />
+    <Compile Include="DTO\ServicePrice.cs" />
+    <Compile Include="GUI\AccInf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AccInf.Designer.cs">
+      <DependentUpon>AccInf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EMPinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EMPinfo.Designer.cs">
+      <DependentUpon>EMPinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoginKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginKS.Designer.cs">
+      <DependentUpon>LoginKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\mainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\mainMenu.Designer.cs">
+      <DependentUpon>mainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Paid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Paid.Designer.cs">
+      <DependentUpon>Paid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\reservationCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\reservationCreate.Designer.cs">
+      <DependentUpon>reservationCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Revenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Revenue.Designer.cs">
+      <DependentUpon>Revenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\roomPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\roomPrice.Designer.cs">
+      <DependentUpon>roomPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GUI\reservationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\reservationList.Designer.cs">
+      <DependentUpon>reservationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Room.Designer.cs">
+      <DependentUpon>Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUI\AccInf.resx">
+      <DependentUpon>AccInf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EMPinfo.resx">
+      <DependentUpon>EMPinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginKS.resx">
+      <DependentUpon>LoginKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\mainMenu.resx">
+      <DependentUpon>mainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Paid.resx">
+      <DependentUpon>Paid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\reservationCreate.resx">
+      <DependentUpon>reservationCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Revenue.resx">
+      <DependentUpon>Revenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\roomPrice.resx">
+      <DependentUpon>roomPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUI\reservationList.resx">
+      <DependentUpon>reservationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Room.resx">
+      <DependentUpon>Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Service.resx">
+      <DependentUpon>Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GUI\App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

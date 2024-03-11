@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\QKKS(ver 1.4).exe.config
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\QKKS(ver 1.4).exe
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\QKKS(ver 1.4).pdb
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS(ver 1.4).csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.LoginKS.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.Properties.Resources.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS(ver 1.4).csproj.GenerateResource.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS(ver 1.4).csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS(ver 1.4).exe
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS(ver 1.4).pdb
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.AccInf.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.mainMenu.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.Service.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.Room.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.reservationList.resources

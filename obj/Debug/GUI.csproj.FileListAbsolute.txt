@@ -1,0 +1,76 @@
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\QKKS(ver 1.4).exe.config
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\QKKS(ver 1.4).exe
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\QKKS(ver 1.4).pdb
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Barcode.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Chart.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Diagram.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Grid.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Host.WinForm.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Presentation.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Schedule.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Text.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.WinFormControls.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.GraphicsGL.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Host.WinBase.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Barcode.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Chart.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Diagram.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Grid.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Host.WinForm.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Presentation.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Schedule.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Text.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.WinFormControls.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.GraphicsGL.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\bin\Debug\Nevron.Nov.Host.WinBase.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.AccInf.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.LoginKS.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.mainMenu.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.Properties.Resources.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.reservationList.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.Room.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS_ver_1._4_.Service.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS(ver 1.4).exe
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\obj\Debug\QKKS(ver 1.4).pdb
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\QKKS(ver 1.4).exe.config
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\QKKS(ver 1.4).exe
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\QKKS(ver 1.4).pdb
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Barcode.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Chart.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Diagram.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Grid.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Host.WinForm.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Presentation.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Schedule.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Text.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.WinFormControls.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.GraphicsGL.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Host.WinBase.dll
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Barcode.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Chart.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Diagram.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Grid.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Host.WinForm.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Presentation.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Schedule.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Text.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.WinFormControls.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.GraphicsGL.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\bin\Debug\Nevron.Nov.Host.WinBase.xml
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS_ver_1._4_.AccInf.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS_ver_1._4_.LoginKS.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS_ver_1._4_.mainMenu.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS_ver_1._4_.Properties.Resources.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS_ver_1._4_.reservationList.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS_ver_1._4_.Room.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS_ver_1._4_.Service.resources
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS(ver 1.4).exe
+C:\Users\admin\Desktop\học c#\QKKS(ver 1.4)\Gui\obj\Debug\QKKS(ver 1.4).pdb

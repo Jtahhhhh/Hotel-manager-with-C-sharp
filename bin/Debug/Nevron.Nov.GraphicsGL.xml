@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nevron.Nov.GraphicsGL</name>
+    </assembly>
+    <members>
+        <member name="T:Nevron.Nov.GraphicsGL.ENMapLayout">
+            <summary>
+            The layout used when mapping a texture on an object in the 3D scene.
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapLayout.Stretched">
+            <summary>
+            Stretches the texture along the X and Y axes until it fits the object. 
+            It does not preserve the original texture dimensions ratio (aspect).
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapLayout.Fitted">
+            <summary>
+            Stretches the texture until its smaller dimension fits the object.
+            This layout mode preserves the texture dimensions ratio (aspect).
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapLayout.Centered">
+            <summary>
+            Similar to fitted. When used on the background object it also preserves 
+            the real original texture dimensions.
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapLayout.Tiled">
+            <summary>
+            Repeats the texture along the X and Y axes. This layout mode preserves 
+            the texture dimensions ratio (aspect).
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapLayout.StretchedToWidth">
+            <summary>
+            Stretches the texture by width until it fits. This layout mode preserves 
+            the texture dimensions ratio (aspect).
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapLayout.StretchedToHeight">
+            <summary>
+            Stretches the texture by height until it fits. This layout mode preserves 
+            the texture dimensions ratio (aspect).
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapLayout.CropFitted">
+            <summary>
+            Stretches the texture until its larger dimension fits the object.
+            This layout mode preserves the texture dimensions ratio (aspect).
+            </summary>
+        </member>
+        <member name="T:Nevron.Nov.GraphicsGL.ENMapMode">
+            <summary>
+            Defines how textures are mapped on the surfaces of an object.
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapMode.RelativeToObject">
+            <summary>
+            Mapping is relative to the object. A mapping layout can be specified.
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapMode.RelativeToViewer">
+            <summary>
+            Mapping is relative to the viewer.
+            </summary>
+        </member>
+        <member name="F:Nevron.Nov.GraphicsGL.ENMapMode.Sphere">
+            <summary>
+            Environmental mapping used for special visual effects like reflection.
+            </summary>
+        </member>
+        <member name="M:Nevron.Nov.Internal.rdCG.ToString">
+            <summary>
+            Overriden to provide a string representation of the vector
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.rdCG.op_Addition(Nevron.Nov.Internal.rdCG,Nevron.Nov.Internal.rdCG)">
+            <summary>
+            Adds a and b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.rdCG.op_Subtraction(Nevron.Nov.Internal.rdCG,Nevron.Nov.Internal.rdCG)">
+            <summary>
+            Substracts a and b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.rdCG.op_Multiply(Nevron.Nov.Internal.rdCG,System.Double)">
+            <summary>
+            Multiplies vec by value
+            </summary>
+            <param name="vec"></param>
+            <param name="fMul"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.rdCG.Equals(System.Object)">
+            <summary>
+            Returns true if the objects are equal.
+            </summary>
+            <param name="IfCG"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.rdCG.GetHashCode">
+            <summary>
+            Returns the hash code of this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.OfCG.ToString">
+            <summary>
+            Overriden to provide a string representation of the vector
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.OfCG.op_Addition(Nevron.Nov.Internal.OfCG,Nevron.Nov.Internal.OfCG)">
+            <summary>
+            Adds a and b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.OfCG.op_Subtraction(Nevron.Nov.Internal.OfCG,Nevron.Nov.Internal.OfCG)">
+            <summary>
+            Substracts a and b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.OfCG.op_Multiply(Nevron.Nov.Internal.OfCG,System.Single)">
+            <summary>
+            Multiplies vec by value
+            </summary>
+            <param name="vec"></param>
+            <param name="fMul"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.OfCG.Equals(System.Object)">
+            <summary>
+            Returns true if the objects are equal.
+            </summary>
+            <param name="fhCG"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.OfCG.GetHashCode">
+            <summary>
+            Returns the hash code of this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.lhCG.ToString">
+            <summary>
+            Overriden to provide a string representation of the vector
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.lhCG.op_Addition(Nevron.Nov.Internal.lhCG,Nevron.Nov.Internal.lhCG)">
+            <summary>
+            Adds a and b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.lhCG.op_Subtraction(Nevron.Nov.Internal.lhCG,Nevron.Nov.Internal.lhCG)">
+            <summary>
+            Substracts a and b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.lhCG.op_Multiply(Nevron.Nov.Internal.lhCG,System.Double)">
+            <summary>
+            Multiplies vec by value
+            </summary>
+            <param name="vec"></param>
+            <param name="fMul"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.lhCG.Equals(System.Object)">
+            <summary>
+            Returns true if the objects are equal.
+            </summary>
+            <param name="jKCG"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.lhCG.GetHashCode">
+            <summary>
+            Returns the hash code of this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.QKCG.Equals(System.Object)">
+            <summary>
+            Returns true if the objects are equal.
+            </summary>
+            <param name="vKCG"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.QKCG.GetHashCode">
+            <summary>
+            Returns the hash code of this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.OWUE.Dispose">
+            <summary>
+            Disposes the surface
+            </summary>
+        </member>
+        <member name="M:Nevron.Nov.Internal.rrdG.CompareTo(Nevron.Nov.Internal.rrdG)">
+            <summary>
+            
+            </summary>
+            <param name="vrdG"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nevron.Nov.Internal.ASdG.CompareTo(Nevron.Nov.Internal.ASdG)">
+            <summary>
+            
+            </summary>
+            <param name="dSdG"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Nevron.NOpenGLRenderingTest.NResources">
+            <summary>
+            DO NOT MODIFY MANUALLY. Automatically generated by NResourceMaker.
+            </summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_DashLines2D_New_frag">
+            <summary></summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_DashLines2D_New_vert">
+            <summary></summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_DashLines2D_NewCopy_vert">
+            <summary></summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_DashLines2D_Old_frag">
+            <summary></summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_DashLines2D_Old_vert">
+            <summary></summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_SolidLines2D_frag">
+            <summary></summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_SolidLines2D_vert">
+            <summary></summary>
+        </member>
+        <member name="P:Nevron.NOpenGLRenderingTest.NResources.String_test_frag">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_DashLines2D_New_frag">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_DashLines2D_New_vert">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_DashLines2D_NewCopy_vert">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_DashLines2D_Old_frag">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_DashLines2D_Old_vert">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_SolidLines2D_frag">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_SolidLines2D_vert">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.RSTR_test_frag">
+            <summary></summary>
+        </member>
+        <member name="F:Nevron.NOpenGLRenderingTest.NResources.Instance">
+            <summary>
+            Singleton instance.
+            </summary>
+        </member>
+    </members>
+</doc>
